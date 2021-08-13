@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1px" width=100%>
+        <thead>
+            <th>Name</th>
+            <th>Course</th>
+            <th>duration</th>
+        </thead>
+        <tr>
+            <td>cherry</td>
+            <td>react</td>
+            <td>4month</td>
+        </tr>
+        <tr>
+            <td>cherry</td>
+            <td>react</td>
+            <td>4month</td>
+        </tr>
+        <tr>
+            <td>cherry</td>
+            <td>react</td>
+            <td>4month</td>
+        </tr>
+        <tr>
+            <td>cherry</td>
+            <td>react</td>
+            <td>4month</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <form action="example.html" method="POST">
+        <fieldset>
+            <legend>This is a student Registration Form</legend>
+            <div>
+                <label for="">First Name</label>
+            </div>
+            <div>
+                <input type="text" name="firstname" required placeholder="enter the first name" minlength="3"
+                    maxlength="5" />
+            </div>
+            <div>
+                <label for="">middle Name</label>
+            </div>
+            <div>
+                <input type="text" name="middlename" placeholder="enter the middle name" />
+            </div>
+            <div>
+                <label for="">Last Name</label>
+            </div>
+            <div>
+                <input type="text" name="lastname" placeholder="enter the last name" />
+            </div>
+            <div>
+                <label for="">Email ID</label>
+            </div>
+            <div>
+                <input type="email" required name="email">
+            </div>
+            <div>
+                <label for="">Age</label>
+            </div>
+            <div>
+                <input type="number" name="age" min="18" max="30">
+            </div>
+            <div>
+                <label for="">Gender</label>
+            </div>
+            <div>
+                Female <input type="radio" name="gender" value="female">
+                Male <input type="radio" name="gender" value="male">
+            </div>
+            <div>
+                <label for="">Choose your state</label>
+            </div>
+            <div>
+                <select name="state" id="">
+                    <option value="kerala">kerala</option>
+                    <option value="karnataka">karnataka</option>
+                    <option value="goa">Goa</option>
+                    <option value="tamilnadu">Tamilnadu</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Password</label>
+            </div>
+            <div>
+                <input type="password" name="pass" id="">
+            </div>
+            <div>
+                <label for="">Date of Join</label>
+            </div>
+            <div>
+                <input type="date" name="doj">
+            </div>
+            <div>
+                <label for="">choose browser</label>
+            </div>
+            <div>
+                <input list="browser" name="browser">
+                <datalist id="browser">
+                    <option value="mozilla">
+                    <option value="chrome">
+                    <option value="saffari">
+                </datalist>
+
+            </div>
+            <div>
+                <label for="">Choose a profile picture:</label>
+
+                <input type="file" id="" name="avatar" accept="image/png, image/jpeg">
+            </div>
+            <div>
+                <img class="fit-picture" src="../images/image1.png" alt="Html logo">
+            </div>
+            <div>
+                <h1 style="background-color:DodgerBlue;">Hello User</h1>
+            </div>
+            <p>Audio settings:</p>
+
+            <div>
+                <input type="range" id="volume" name="volume" min="0" max="11">
+                <label for="volume">Volume</label>
+            </div>
+
+            <div>
+                <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10">
+                <label for="cowbell">Cowbell</label>
+            </div>
+            <div>
+                <p>Choose your Qualifications:</p>
+
+                <div>
+                    <input type="checkbox" id="" name="sslc" checked>
+                    <label for="">Sslc</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="" name="+2">
+                    <label for="">+2</label>
+                </div>
+            </div>
+            <div>
+                <label for="">Enter your phone number:</label>
+
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+                <small>Format: 123-456-7890</small>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="signup">
+            </div>
+        </fieldset>
+        <iframe src="H:\class\rea & ang\html\example\pages\example.html" frameborder="0" width="500"
+            height="400"></iframe>
+        <iframe width="500px" height="400px" src="https://www.youtube.com/embed/AJcDqagy9HQ"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </form>
+
+</body>
+
+</html>

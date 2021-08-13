@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+    border-color: rgb(135, 202, 9);
+}
+.tr:nth-child(even){
+    background-color: cyan;
+    text-align: center;
+}
+.tr:hover:nth-child(odd){
+    background-color: brown;
+    text-align: center;
+}
+.hed{
+    background-color: gray;
+    /* text-decoration: line-through; */
+}
+.hed:hover{
+    background-color: green;
+}
+.heading{
+    text-shadow: 2px 2px 5px green;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
